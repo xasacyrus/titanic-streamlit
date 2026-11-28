@@ -70,7 +70,7 @@ for col, (no, judul, isi) in zip(kolom, langkah):
 
 # ---------- Baris 4: tim ----------
 st.write("")
-st.subheader("Tim kelompok")
+st.subheader("Nama kelompok")
 kolom = st.columns(3)
 for col, (nama, nim) in zip(kolom, PEMBUAT):
     with col.container(border=True):
