@@ -6,13 +6,13 @@ import streamlit as st
 
 st.set_page_config(page_title="Titanic Dashboard", page_icon=":ship:", layout="wide")
 
-from utils import pasang_tema  # noqa: E402
+from utils import pasang_tema  
 
 pasang_tema()
 
 with st.sidebar:
     st.markdown("### 🚢 Titanic Dashboard")
-    st.caption("Tugas Machine Learning · Universitas Pamulang")
+    st.caption("Tugas Machine Learning - Klasifikasi Keselamatan Penumpang")
     st.divider()
 
 halaman = {
